@@ -1,5 +1,6 @@
 /* Write your CSS here */
 .page_container {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -8,11 +9,17 @@
 }
 
 .notifications_container {
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 667px) {
+  .notifications_container {
+    width: 80%;
+  }
 }
 
 .heading {

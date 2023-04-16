@@ -1,6 +1,6 @@
 /* Write your CSS here */
 .notification_card {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
